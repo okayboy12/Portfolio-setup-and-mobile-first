@@ -89,7 +89,7 @@ nav svg {
   margin-top: 12px;
 }
 
-a:hover{
-  color:turquoise;
+a :hover {
+  color: turquoise;
   text-decoration: none;
 }
