@@ -28,7 +28,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="asset/images/SocialMedia.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Mobile project</b></h3>
@@ -61,10 +61,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Hello Microverse Project <a name="about-project"></a>
+# 📖 Mobile portfolio <a name="about-project"></a>
 
 
-**Hello Microverse Project** is a fundamental introduction to Git, GitHub, and Linters for novice Micronauts.
+**Mobile portfolio** is a fundamental introduction to Git, GitHub, and Linters for novice Micronauts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -91,6 +91,8 @@ After you're finished please remove all the comments and instructions!
 
 - Added index.html file
 - Added styles.css file
+- Ensuring that linters work
+- Having a responsive page
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

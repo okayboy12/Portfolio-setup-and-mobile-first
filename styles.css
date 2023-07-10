@@ -88,3 +88,7 @@ nav svg {
   height: 20px;
   margin-top: 12px;
 }
+
+a:hover{
+  color:turquoise;
+}
