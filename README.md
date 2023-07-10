@@ -92,7 +92,7 @@ After you're finished please remove all the comments and instructions!
 - Added index.html file
 - Added styles.css file
 - Ensuring that linters work
-- Having a responsive page
+- Having a responsive pagegi
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
