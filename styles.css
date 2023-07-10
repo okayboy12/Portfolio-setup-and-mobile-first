@@ -50,7 +50,7 @@ nav svg {
   background-color: white;
 }
 
-.intro span {
+.intro h1 {
   display: flex;
   width: 327px;
   height: 150px;
@@ -83,10 +83,14 @@ nav svg {
   line-height: 24px;
 }
 
-.intro svg {
-  width: 170.167px;
-  height: 20px;
-  margin-top: 12px;
+.intro ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.intro li {
+  display: inline-block;
+  padding: 10px;
 }
 
 a :hover {
