@@ -92,7 +92,7 @@ After you're finished please remove all the comments and instructions!
 - Added index.html file
 - Added styles.css file
 - Ensuring that linters work
-- Having a responsive pagegi
+- Having a responsive page
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -101,7 +101,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- To be out soon
+- This is the screenshot of my mobile portfolio.
+<img src="asset/images/screenshot.png" alt="logo" width="100%"  height="auto" />
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,8 +111,10 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-- Install Visual Studio Code and it was ran on Live Server
+To get a local copy, run through these following steps:
 
+1 You should open your Terminal and copy the SSH link to clone it to your local machine.
+2 When you had downloaded it, you can run it open the index.html file on your browser.
 ### Prerequisites
 
 In order to run this project you need:
@@ -135,7 +139,7 @@ Clone this repository to your desired folder by running this command.
 
 ```sh
   cd hello-microverse-project
- git@github.com:okayboy12/hello-microverse-project.git
+ git@github.com:okayboy12/Portfolio-setup-and-mobile-first.git
   ```
 
 ### Install
@@ -148,13 +152,13 @@ Open index.html file in VS Code, click run without debugging
 
 ### Run tests
 
-To be out soon.
+Linters does the testing.
 
 ### Deployment
 
 You can deploy this project using:
 
-To be out soon.
+Using any browser of your choice open the index.html file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,16 +176,6 @@ To be out soon.
 
 
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] Add navigation bar
-- [ ] Add a paragraph with list
-- [ ] Add more styles to CSS
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
