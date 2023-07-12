@@ -3,9 +3,10 @@
   margin: 0;
 }
 
-body {
+.section-wrap {
   font-family: "Poppins", sans-serif;
   background-color: #f7f7f9;
+  width: 375px;
 }
 
 nav {
@@ -94,14 +95,14 @@ nav svg {
 }
 
 a :hover {
-  color: turquoise;
+  background-color: turquoise;
   text-decoration: none;
 }
 
 .card {
-  display: flex;
+  display: grid;
   padding: 16px;
-  flex-direction: column;
+  grid-column: auto;
   align-items: center;
   gap: 12px;
   border-radius: 16px;
@@ -118,10 +119,10 @@ a :hover {
 }
 
 .card h2 {
-  display: flex;
+  display: grid;
   width: 295px;
   height: 36px;
-  flex-direction: column;
+  grid-column: auto;
   color: var(--neutrals-n-800, #172b4d);
   font-family: Poppins, sans-serif;
   font-size: 32px;
@@ -142,10 +143,10 @@ a :hover {
 
 .two p {
   margin-top: 12px;
-  display: flex;
+  display: grid;
   width: 295px;
   height: 76px;
-  flex-direction: column;
+  grid-column: auto;
   color: var(--neutrals-n-600, #344563);
   font-family: Poppins, sans-serif;
   font-size: 15px;
@@ -156,25 +157,17 @@ a :hover {
 
 .three {
   display: flex;
-  flex-direction: row;
+  grid-column: auto;
   align-items: flex-start;
   gap: 12px;
   margin-top: 12px;
 }
 
 .three a {
-  display: flex;
   padding: 4px 12px;
   align-self: center;
   border-radius: 8px;
   background: var(--primary-b-50, #ebebff);
-}
-
-.four {
-  display: flex;
-  padding: 12px 169px 12px 0;
-  align-items: center;
-  margin-top: 12px;
 }
 
 .four a {
@@ -192,6 +185,29 @@ a :hover {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
+  width: 128px;
+  height: 50px;
+}
+
+.svgclass a {
+  padding: 8px;
+}
+
+.three a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.four {
+  display: grid;
+  padding: 12px 169px 12px 0;
+  margin-top: 12px;
+  grid-column: auto;
+}
+
+.four a:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .canopy {
@@ -252,7 +268,7 @@ span .item3 {
   gap: 24px;
   border-radius: 0 100px 0 0;
   background: var(--neutrals-n-0, #fff);
-  margin: 0 24px 0 24px;
+  margin: 0 0s 0 24px;
 }
 
 .firstseg {
@@ -290,10 +306,6 @@ span .item3 {
   margin-top: 16px;
 }
 
-.svgclass a {
-  padding: 8px;
-}
-
 .resume {
   display: flex;
   padding: 12px;
@@ -309,6 +321,11 @@ span .item3 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
+}
+
+.resume:hover {
+  color: red;
+  text-decoration: none;
 }
 
 .secseg {
@@ -369,6 +386,7 @@ span .item3 {
 
 .grdicontainer {
   display: grid;
+  display: inline-block;
 }
 
 .grid1 {
