@@ -93,6 +93,7 @@ After you're finished please remove all the comments and instructions!
 - Added styles.css file
 - Ensuring that linters work
 - Having a responsive page
+- CSS Flexbox and Grid
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -102,7 +103,8 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - This is the screenshot of my mobile portfolio.
-<img src="asset/images/screenshot.png" alt="logo" width="100%"  height="auto" />
+<img src="asset/images/screenshot.png" alt="logo" width="100%"  height="100%" />
+<img src="asset/images/project2.png" alt="logo" width="100%"  height="100%" />
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
