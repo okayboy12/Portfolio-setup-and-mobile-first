@@ -297,11 +297,11 @@ span .item3 {
   gap: 24px;
   border-radius: 0 100px 0 0;
   background: var(--neutrals-n-0, #fff);
-  margin: 0 0s 0 24px;
+  /* margin: 0 0 0 24px; */
 }
 
 .firstseg {
-  margin: 114px 24px 24px 24px;
+  margin: 114px 24px 0 24px;
 }
 
 .about h3 {
@@ -376,18 +376,29 @@ span .item3 {
   width: 327px;
   margin-bottom: 114px;
 }
-
-.secseg span {
+.language{
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  padding: 16px 26px 16px 12px;
+  align-items: center;
+  gap: 12px;
+  width: 280px;
+  height: 40px;
+}
+.language b{
   display: flex;
   width: 237px;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: columnr;
+  justify-content: start;
   color: #000;
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+  flex-shrink: 0;
+  background-color: #fff;
 }
 
 .secseg svg {
@@ -397,6 +408,7 @@ span .item3 {
   padding: 8px;
   align-items: flex-start;
   border-radius: 8px;
+  background-color: #fff;
 }
 
 .secseg li {
@@ -428,15 +440,71 @@ span .item3 {
   flex-shrink: 0;
 }
 
-.grdicontainer {
-  display: grid;
-  display: inline-block;
+.work {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  padding: 16px 26px 16px 12px;
+  align-items: center;
+  gap: 12px;
+  width: 280px;
+  height: 40px;
+}
+.work b {
+  display: flex;
+  width: 237px;
+  flex-direction: columnr;
+  justify-content: start;
+  color: #000;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  flex-shrink: 0;
+  background-color: #fff;
 }
 
-.grid1 {
-  grid-row: 1;
+.contact-me{
+  margin-top: 62.85px;
+  width: 375px;
+  height: 100%;
+  flex-shrink: 0;
+  background-color: #fff;
+}
+.contactdetails {
+  border-radius: 50px 0 0 0;
+  height: 100vh;
+  background-color: #6070ff;
 }
 
-.grid2 {
-  grid-row: 2;
+.contact-me h2{
+  display: flex;
+padding-top: 103px;
+height: 56px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: var(--neutrals-n-0, #FFF);
+text-align: center;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 130% */
+}
+
+.contact-me p {
+  display: flex;
+  padding-top: 24px;
+  width: 327px;
+height: 137px;
+flex-shrink: 0;
+color: var(--primary-b-50, #EBEBFF);
+text-align: center;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 140% */
 }
