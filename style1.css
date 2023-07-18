@@ -6,7 +6,16 @@
 
 main{
     width: 30%;
-    margin: 35%;
+    margin: 5% 35%;
     height: 50%;
 }
-
+li {
+    float: left;
+    background-color: #bebeff;
+    color: #6070ff;
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 5px;
+    
+}
