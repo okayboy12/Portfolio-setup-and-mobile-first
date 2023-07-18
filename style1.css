@@ -11,12 +11,12 @@ main {
 }
 
 li {
+    float: left;
     text-decoration: none;
     list-style: none;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
-    background-color: #bebeff;
+    background-color: #ebebff;
     color: #5070ff;
-
 }
