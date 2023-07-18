@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 30%;
+    margin: 5% 35%;
+    height: 50%;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #bebeff;
+    color: #5070ff;
+
+}
