@@ -424,11 +424,11 @@ span .item3 {
 }
 
 .self > img {
-  right: 0;
-  margin: auto;
+  left: 0;
+  margin-left: 150px;
   z-index: 1;
   height: 740px;
-  width: 60%;
+  width: 225px;
   position: absolute;
   margin-top: 20px;
 }
@@ -550,6 +550,26 @@ textarea {
   background-color: #fff;
   padding: 12px 16px 12px 16px;
   border-radius: 8px;
+}
+
+.submit:hover {
+  color: #fff;
+  background-color: #6070ff;
+  text-decoration: none;
+  box-shadow: 0 8px 16px 0 #4053fc;
+}
+
+.submit:active {
+  color: #fff;
+  background-color: #2230d2;
+  text-decoration: none;
+}
+
+.submit:disabled {
+  color: #c1c7d0;
+  background-color: #fff;
+  text-decoration: none;
+  border: 1px solid #c1c7d0;
 }
 
 #terminate {
