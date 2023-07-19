@@ -1,43 +1,13 @@
-# Portfolio-setup-and-mobile-first
 <a name="readme-top"></a>
-
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
 <div align="center">
-  You are encouraged to replace this logo with your own! Otherwise you can also remove it.
-  <img src="asset/images/SocialMedia.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Mobile project</b></h3>
-
+  
+  <img src="https://images-platform.99static.com/knOOxLpm7L5wbnfxaSjMzsGfaWc=/500x500/top/smart/99designs-contests-attachments/19/19579/attachment_19579909" alt="logo" width="200"  height="auto" />
+  <h3><b>Microverse README Template</b></h3>
+  
 </div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
+- [📖 About the project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -48,173 +18,162 @@ After you're finished please remove all the comments and instructions!
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#deployment)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 📖 Mobile portfolio <a name="about-project"></a>
+# 📖 Portfolio finish mobile version <a name="about-project"></a>
 
-
-**Mobile portfolio** is a fundamental introduction to Git, GitHub, and Linters for novice Micronauts.
-
+**Portfolio finish mobile version** is a webpage built as a first project to showcase html, css linters,  skills growup during first week of the Microverse program.
 ## 🛠 Built With <a name="built-with"></a>
 
-1- HTML
-2- CSS
-
 ### Tech Stack <a name="tech-stack"></a>
+
+- **HTML**
+- **CSS**
+- **Linters**
 
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com/">HTML</a></li>
-    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
-    
+    <li><a href="https://www.learn-html.org">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
 
-
-
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-- Added index.html file
-- Added styles.css file
-- Ensuring that linters work
-- Having a responsive page
-- CSS Flexbox and Grid
-
+- **Easy to use**
+- **Responsive design**
+- **added linters configuration**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- This is the screenshot of my mobile portfolio.
-<img src="asset/images/screenshot.png" alt="logo" width="100%"  height="100%" />
-<img src="asset/images/project2.png" alt="logo" width="100%"  height="100%" />
-
+Coming Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy, run through these following steps:
+>In order to run this project you need:<br>
 
-1 You should open your Terminal and copy the SSH link to clone it to your local machine.
-2 When you had downloaded it, you can run it open the index.html file on your browser.
+-Have VSCode or another text editor installed. <a href="https://code.visualstudio.com/download">Click to download VSC text editor</a> <br> 
+
+-Have git installed. <a href="https://git-scm.com/downloads ">Click to download git</a> <br> 
+
+-Have GitHub installed. <a href="https://desktop.github.com/">Click to download GitHub</a> <br> 
+
+
+To get a local copy up and running, follow these steps.
+
 ### Prerequisites
 
 In order to run this project you need:
 
-1. Browser
-2. Editor(VS code)
-3. Git and GitHub
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- **1. Github account**
+- **2. Code Editor** 
+- **3. Web Browser**
 
 ### Setup
 
-Clone this repository to your desired folder by running this command.
+Clone this repository to your desired folder:-
 
-
-
+Run this commands:
 ```sh
-  cd hello-microverse-project
- git@github.com:okayboy12/Portfolio-setup-and-mobile-first.git
-  ```
+cd my-folder
+git clone git@github.com:VivekRaaZ/portfolio.git
+```
 
 ### Install
 
-To be out soon
+To Install this project, run the following command: Open the code in Visual Studio Code and run the following commands :
 
+```sh
+  cd my-project
+  npm install
+```
 ### Usage
 
-Open index.html file in VS Code, click run without debugging
+To run the project, execute the following file: index.html
+
+open index.html using live server extenshion.
 
 ### Run tests
 
-Linters does the testing.
+To run tests, run the following command: 
+
+```sh
+npx hint .
+npx stylelint "**/*.{css,scss}"
+```
+
 
 ### Deployment
 
-You can deploy this project using:
-
-Using any browser of your choice open the index.html file.
+You can deploy this project using: github, VS Code
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
+
 👤 **Author 1**
-👤 **Okeke Okechukwu**
 
-- GitHub: [@githubhandle](https://github.com/okayboy12)
-- Twitter: [@twitterhandle](https://twitter.com/okayboy)
-- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/okechukwu-okeke-5a96b9a2/)
 
-👤 **Author 2**
 👤 **Vivek Raj**
 
 - GitHub: [@githubhandle](https://github.com/VivekRaaZ?tab=repositories)
 - Twitter: [@twitterhandle](https://twitter.com/BossVivekRaj)
-- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/vivek-raj-a78b92256/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/vivek-raj-a78b92256/)
+
+  👤 **Author 2**
+
+👤 **Okeke Okechukwu**
+
+- GitHub: [@githubhandle](https://github.com/okayboy12)
+- Twitter: [@twitterhandle](https://twitter.com/okayboy)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/okechukwu-okeke-5a96b9a2)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Improving the outlook by implementing the responsive design**
+- [ ] **Styling the heading by using CSS**
+- [ ] **Adding javascript to create our project more functional**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
-If you like this project, just give it a star ⭐️.
+> The beginning is always difficult, and once the flow begins, then no one can stop it. So do support this step towards excellence.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-I would like to thank my dear friend Dany, my code reviewers and Microverse.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+> I would like to thanks microverse team, github team and my coding partners, who contributed towards the completion of this task.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
+Give a ⭐️ if you like this project!
 
-This project is [MIT](./LICENSE.md) licensed.
-
-
+📝 License
+This project is [MIT](LICENSE.md) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
