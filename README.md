@@ -1,33 +1,6 @@
 # Portfolio-setup-and-mobile-first
 <a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <img src="asset/images/SocialMedia.png" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -64,7 +37,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 Mobile portfolio <a name="about-project"></a>
 
 
-**Mobile portfolio** is a fundamental introduction to Git, GitHub, and Linters for novice Micronauts.
+*Mobile portfolio* is a fundamental introduction to Git, GitHub, and Linters for novice Micronauts.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -128,9 +101,9 @@ In order to run this project you need:
 <!--
 Example command:
 
-```sh
+sh
  gem install rails
-```
+
  -->
 
 ### Setup
@@ -139,10 +112,10 @@ Clone this repository to your desired folder by running this command.
 
 
 
-```sh
+sh
   cd hello-microverse-project
  git@github.com:okayboy12/Portfolio-setup-and-mobile-first.git
-  ```
+  
 
 ### Install
 
@@ -168,18 +141,19 @@ Using any browser of your choice open the index.html file.
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
-👤 **Okeke Okechukwu**
+👤 *Author 1*
+👤 *Okeke Okechukwu*
 
 - GitHub: [@githubhandle](https://github.com/okayboy12)
 - Twitter: [@twitterhandle](https://twitter.com/okayboy)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/okayboy)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/okechukwu-okeke-5a96b9a2/)
 
+👤 *Author 2*
+👤 *Vivek Raj*
 
-
-
-<!-- CONTRIBUTING -->
+- GitHub: [@githubhandle](https://github.com/VivekRaaZ?tab=repositories)
+- Twitter: [@twitterhandle](https://twitter.com/BossVivekRaj)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/vivek-raj-a78b92256/)
 
 ## 🤝 Contributing <a name="contributing"></a>
 
