@@ -10,7 +10,6 @@ main {
 .section-wrap {
   font-family: "Poppins", sans-serif;
   background-color: #f7f7f9;
-  width: 375px;
   display: grid;
   grid-template-columns: auto;
 }
@@ -423,17 +422,17 @@ span .item3 {
   background: var(--neutrals-n-10, #f7f7f9);
 }
 
-.self > img {
-  left: 0;
-  margin-left: 150px;
+.myself > img {
+  right: 0;
+  margin: auto;
   z-index: 1;
-  height: 740px;
-  width: 225px;
+  height: 735px;
+  width: 60%;
   position: absolute;
   margin-top: 20px;
 }
 
-.secseg li img {
+.secseg li > img {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
@@ -450,6 +449,10 @@ span .item3 {
   flex-shrink: 0;
 }
 
+.work li {
+  background-color: #fff;
+}
+
 .work {
   flex-direction: row;
   display: flex;
@@ -462,7 +465,6 @@ span .item3 {
 
 .work b {
   display: flex;
-  width: 237px;
   flex-direction: columnr;
   justify-content: start;
   color: #000;
@@ -475,10 +477,11 @@ span .item3 {
   background-color: #fff;
 }
 
-.self {
+.myself {
   background-color: #6070ff;
   border-radius: 70px 0 0 0;
-  height: 800px;
+  height: 779px;
+  box-sizing: border-box;
 }
 
 .touch {
@@ -488,9 +491,11 @@ span .item3 {
   margin: 0 5%;
 }
 
-form {
+.form1 {
   display: flex;
   flex-direction: column;
+
+  /* margin: 0px 0; */
 }
 
 .last {
@@ -550,6 +555,7 @@ textarea {
   background-color: #fff;
   padding: 12px 16px 12px 16px;
   border-radius: 8px;
+  border: 1px solid #6070ff;
 }
 
 .submit:hover {
@@ -570,14 +576,4 @@ textarea {
   background-color: #fff;
   text-decoration: none;
   border: 1px solid #c1c7d0;
-}
-
-#terminate {
-  display: flex;
-  width: 375px;
-  height: 34px;
-  padding: 21px 121px 8px 120px;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
 }
