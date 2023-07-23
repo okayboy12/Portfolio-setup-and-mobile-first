@@ -142,12 +142,24 @@ Using any browser of your choice open the index.html file.
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 *Author *
+👤 *Author 1*
 👤 *Okeke Okechukwu*
 
 - GitHub: [@githubhandle](https://github.com/okayboy12)
 - Twitter: [@twitterhandle](https://twitter.com/okayboy)
 - LinkedIn: [@LinkedIn](https://www.linkedin.com/in/okechukwu-okeke-5a96b9a2/)
+
+ 👤 *Author 2*
+👤 *Vivek Raj*
+
+- GitHub: [@githubhandle](https://github.com/VivekRaaZ?tab=repositories)
+- Twitter: [@twitterhandle](https://twitter.com/BossVivekRaj)
+- LinkedIn: [@LinkedIn](https://www.linkedin.com/in/vivek-raj-a78b92256/)
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## 🤝 Contributing <a name="contributing"></a>

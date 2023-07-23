@@ -84,6 +84,10 @@ button:active {
     font-family: "Poppins", sans-serif;
   }
 
+  .logo:hover {
+    transform: rotate(360deg);
+  }
+
   .head {
     display: flex;
     justify-content: space-between;
@@ -464,6 +468,10 @@ button:active {
     margin-top: 16px;
   }
 
+  input[type="text"]:hover {
+    transform: skewX(20deg);
+  }
+
   input[type="email"] {
     padding: 10px;
     margin-top: 14px;
@@ -644,6 +652,10 @@ button:active {
     display: none;
   }
 
+  .nature > img {
+    transform: scale(1.1);
+  }
+
   .social {
     display: flex;
     float: left;
@@ -819,6 +831,10 @@ button:active {
     margin-top: 15px;
     border: 1px solid #6070ff;
     border-radius: 8px;
+  }
+
+  .button:hover {
+    transition: 3s;
   }
 
   .ground1 {
