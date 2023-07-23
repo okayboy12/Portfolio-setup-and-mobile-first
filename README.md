@@ -77,8 +77,8 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - This is the screenshot of my mobile portfolio.
-<img src="asset/images/screenshot.png" alt="logo" width="100%"  height="100%" />
-<img src="asset/images/project2.png" alt="logo" width="100%"  height="100%" />
+<img src="asset/images/screenshot.png" alt="logo" width="50%"  height="100%" />
+<img src="asset/images/project2.png" alt="logo" width="50%"  height="100%" />
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
