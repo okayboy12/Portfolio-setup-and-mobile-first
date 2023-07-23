@@ -535,7 +535,7 @@ button:active {
 
 @media screen and (max-width: 767px) {
   .material {
-    background-image: url("image/header-shape.png");
+    background-image: url("asset/images/header-shape.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: cover;
