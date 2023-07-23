@@ -84,6 +84,10 @@ button:active {
     font-family: "Poppins", sans-serif;
   }
 
+  .logo: hover {
+    transform: rotate(360deg);
+  }
+  
   .head {
     display: flex;
     justify-content: space-between;
@@ -820,7 +824,11 @@ button:active {
     border: 1px solid #6070ff;
     border-radius: 8px;
   }
-
+  
+  .button: hover{
+    transition: 3s;
+  }
+  
   .ground1 {
     display: none;
   }
