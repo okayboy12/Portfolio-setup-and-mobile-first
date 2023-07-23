@@ -84,10 +84,10 @@ button:active {
     font-family: "Poppins", sans-serif;
   }
 
-  .logo: hover {
+  .logo:hover {
     transform: rotate(360deg);
   }
-  
+
   .head {
     display: flex;
     justify-content: space-between;
@@ -467,11 +467,11 @@ button:active {
     padding: 10px;
     margin-top: 16px;
   }
-  
-  input[type="text"] {
-    tranform: skewX(20deg);
+
+  input[type="text"]:hover {
+    transform: skewX(20deg);
   }
-  
+
   input[type="email"] {
     padding: 10px;
     margin-top: 14px;
@@ -652,6 +652,10 @@ button:active {
     display: none;
   }
 
+  .nature > img {
+    transform: scale(1.1);
+  }
+
   .social {
     display: flex;
     float: left;
@@ -828,11 +832,11 @@ button:active {
     border: 1px solid #6070ff;
     border-radius: 8px;
   }
-  
-  .button: hover{
+
+  .button:hover {
     transition: 3s;
   }
-  
+
   .ground1 {
     display: none;
   }
